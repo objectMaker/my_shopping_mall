@@ -1,5 +1,15 @@
 <template>
-  <div>{{ a }}</div>
+  <div>
+    {{ a }} <span>111</span>
+    <ul>
+      <li>1</li>
+      <li>2</li>
+      <li>3</li>
+      <li>3</li>
+    </ul>
+    <a href="javascript:;">吃饭</a>
+  </div>
+  吃饭
 </template>
 
 <script lang="ts">
@@ -15,12 +25,4 @@ export default defineComponent({
   },
 });
 </script>
-<style>
-div {
-  color: red;
-  margin: 20px;
-  height: 900px;
-  width: 900px;
-  padding: 20px;
-}
-</style>
+<style></style>

@@ -5,6 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <link rel="icon" href="<%= BASE_URL %>favicon.ico">
+<!--    不要使用这种方法引入normalize因为src里面的文件会打包处理，而public下面的不会，src里面的引用路径可能会变掉-->
+<!--    <link rel="stylesheet" href="/src/assets/css/normalize.less">-->
     <title><%= htmlWebpackPlugin.options.title %></title>
   </head>
   <body>
