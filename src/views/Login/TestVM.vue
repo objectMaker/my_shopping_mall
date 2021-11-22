@@ -3,7 +3,7 @@
   <button @click="changeCount">提交</button>
 </template>
 
-<script>
+<script lang="ts">
 import { ref } from "vue";
 
 export default {
